@@ -14,7 +14,7 @@ backend:
 
 # Start the React frontend
 frontend:
-    cd frontend && ~/.npm-global/bin/bun dev
+    cd frontend && bun dev
 
 # Start all services (db in background, backend and frontend need separate terminals)
 up: db
